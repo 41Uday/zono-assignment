@@ -38,7 +38,7 @@ class ProductItem extends Component {
                                 <img src={icon} alt="product-logo" className='brand-img' />
                                 <div>
                                     <p className='product-para-1'>{name}</p>
-                                    <p className='product-para-2'>price: {price}</p>
+                                    <p className='product-para-2 para-l-c-i-2'>price: <span className='span-cart'>{price}</span></p>
                                 </div>
                             </div>
                             <div className='product-item-card-1'>

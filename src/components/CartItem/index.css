@@ -14,11 +14,24 @@
 .inner-cart-item-card-1 {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    
 }
 
 .cross {
     background-color: transparent;
     border: none;
     margin-left: 50px;
+}
+
+.para-l-c-i {
+    margin-right: 30px;
+    font-weight: 400;
+}
+
+.para-l-c-i-2 {
+    font-weight: 400;
+}
+
+.span-cart {
+    font-weight: 600;
 }
