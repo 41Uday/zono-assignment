@@ -6,6 +6,8 @@ import Brands from '../Brands'
 
 import Products from '../Products'
 
+import CartView from '../CartView'
+
 import './index.css'
 
 const apiConstantStatus = {
@@ -68,8 +70,8 @@ class Home extends Component {
     }
 
     successMethod = () => {
-        const {brandsList,brandId} = this.state 
-        console.log(brandId)
+        const {brandsList} = this.state 
+        //console.log(brandId)
         const brandNameList = []
         for (let i of brandsList) {
             brandNameList.push(i.brand)
@@ -154,6 +156,9 @@ class Home extends Component {
                         </div>
                         <div className='products-container'>
                             <Products brandId={brandId} brandsList={brandsList} />
+                        </div>
+                        <div className='cart-container'>
+                            <CartView />
                         </div>
                 </div>
             </div>

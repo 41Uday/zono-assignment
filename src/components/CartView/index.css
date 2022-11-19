@@ -1,0 +1,12 @@
+h3 {
+    text-align: center;
+}
+
+.cart-list-container {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    height: 50vh;
+    overflow-y: scroll;
+
+}

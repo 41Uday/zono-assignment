@@ -5,7 +5,7 @@ import './index.css'
 const Products = props => {
     const {brandId,brandsList} = props 
     const resultantArray = brandsList.filter(each => each.brand === brandId)
-    console.log(resultantArray)
+    //console.log(resultantArray)
     return (
         <div>
             <ul className='products-list-container'>

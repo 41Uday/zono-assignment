@@ -41,3 +41,14 @@
 .icon {
     font-size: 15px;
 }
+
+.cart-button {
+    height: 40px;
+    border-radius: 7px;
+    border: none;
+    cursor: pointer;
+}
+
+button {
+    cursor: pointer;
+}

@@ -1,0 +1,24 @@
+.cart-list-item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-bottom: 1px solid black;
+    width: 90%;
+}
+
+.cart-item-card-1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.inner-cart-item-card-1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cross {
+    background-color: transparent;
+    border: none;
+    margin-left: 50px;
+}
