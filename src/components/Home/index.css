@@ -1,0 +1,96 @@
+.home-container {
+    border: 1px solid green;
+    margin: 50px;
+    min-height: 82vh;
+}
+
+.card-1-home {
+    display: flex;
+    
+    align-items: center;
+
+}
+
+.heading-home {
+    margin-left: 30px;
+}
+
+.head-1-container {
+    border-top: none;
+    border-left: none;
+    border-right: 1px solid green;
+    border-bottom: 1px solid green;
+    width: 33%;
+    background-color: #DDACE9;
+}
+
+.head-2-container {
+    border-top: none;
+    border-left: none;
+    border-right: 1px solid green;
+    border-bottom: 1px solid green;
+    width: 34%;
+    background-color: #64AFBB;
+}
+
+.head-3-container {
+    border-top: none;
+    border-left: none;
+    border-bottom: 1px solid green;
+    width: 33%;
+}
+
+.brands-container {
+    height: 75vh;
+    border-right: 1px solid green;
+    width: 33%;
+    background-color: #DDACE9;
+}
+
+.products-container {
+    height: 75vh;
+    border-right: 1px solid green;
+    width: 34%;
+    background-color: #64AFBB;
+}
+
+.card-2-home {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.loader-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 70vh;
+}
+
+.failure-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 70vh;
+}
+
+.nf-button {
+    height: 40px;
+    width: 110px;
+    border-radius: 7px;
+    border: none;
+    cursor: pointer;
+}
+
+.success-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.brands-list-container {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+
+}
