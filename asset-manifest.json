@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/zono-assignment/static/css/main.cb0f4a1f.css",
+    "main.js": "/zono-assignment/static/js/main.14fcb7c2.js",
+    "static/js/787.f4b403a6.chunk.js": "/zono-assignment/static/js/787.f4b403a6.chunk.js",
+    "index.html": "/zono-assignment/index.html",
+    "main.cb0f4a1f.css.map": "/zono-assignment/static/css/main.cb0f4a1f.css.map",
+    "main.14fcb7c2.js.map": "/zono-assignment/static/js/main.14fcb7c2.js.map",
+    "787.f4b403a6.chunk.js.map": "/zono-assignment/static/js/787.f4b403a6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cb0f4a1f.css",
+    "static/js/main.14fcb7c2.js"
+  ]
+}
