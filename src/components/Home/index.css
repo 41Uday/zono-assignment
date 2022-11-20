@@ -1,14 +1,12 @@
 .home-container {
     border: 1px solid green;
     margin: 50px;
-    min-height: 82vh;
+    min-height: 92vh;
 }
 
 .card-1-home {
     display: flex;
-    
     align-items: center;
-
 }
 
 .heading-home {
@@ -42,14 +40,14 @@
 }
 
 .brands-container {
-    height: 75vh;
+    height: 85vh;
     border-right: 1px solid green;
     width: 33%;
     background-color: #DDACE9;
 }
 
 .products-container {
-    height: 75vh;
+    height: 85vh;
     border-right: 1px solid green;
     width: 34%;
     background-color: #64AFBB;
@@ -57,7 +55,7 @@
 
 .cart-container {
     width: 33%;
-    height: 75vh;
+    height: 85vh;
     background-color: #E1E8E7;
 }
 

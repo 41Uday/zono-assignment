@@ -6,7 +6,14 @@ h3 {
     list-style-type: none;
     display: flex;
     flex-direction: column;
-    height: 50vh;
+    height: 40vh;
     overflow-y: scroll;
 
+}
+
+.empty-cart-container {
+    height: 43vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

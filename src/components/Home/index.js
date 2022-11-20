@@ -8,6 +8,8 @@ import Products from '../Products'
 
 import CartView from '../CartView'
 
+import CartReview from '../CartReview'
+
 import './index.css'
 
 const apiConstantStatus = {
@@ -19,7 +21,7 @@ const apiConstantStatus = {
 
 class Home extends Component {
 
-    state = {apiStatus : apiConstantStatus.initial,brandsList: [], brandId: "Samsung"}
+    state = {apiStatus : apiConstantStatus.initial,brandsList: [], brandId: ""}
 
     clickBrand = value => {
         this.setState({brandId : value})
@@ -159,6 +161,7 @@ class Home extends Component {
                         </div>
                         <div className='cart-container'>
                             <CartView />
+                            <CartReview />
                         </div>
                 </div>
             </div>

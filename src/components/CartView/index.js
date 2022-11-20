@@ -4,6 +4,7 @@ import CartItem from '../CartItem'
 
 import CartContext from '../../context/CartContext'
 
+
 import './index.css'
 
 class CartView extends Component {
@@ -21,7 +22,7 @@ class CartView extends Component {
                                         <CartItem key={e.id} cartItem={e} />
                                     ))}
                                 </ul>
-                            ) : <h3 >Your Cart is Empty</h3>}
+                            ) : <div className='empty-cart-container'><h3 >Your Cart is Empty</h3></div>}
                         </div>
                     )
                 }}
